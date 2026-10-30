@@ -15,6 +15,7 @@ import ResultsPage from './pages/ResultsPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import BlogPage from './pages/BlogPage.jsx'
 import ArticlesSection from './components/ArticlesSection.jsx'
+import TestimonialsSection from './components/TestimonialsSection.jsx'
 
 function HomePage() {
   return (
@@ -27,6 +28,7 @@ function HomePage() {
           <AboutSanctuary />
           <DoctorProfile />
           <SmileTransformationShowcase />
+          <TestimonialsSection />
           <ArticlesSection />
           <Booking />
         </main>
